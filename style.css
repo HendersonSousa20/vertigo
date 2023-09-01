@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+    background-color: #F8FAFC;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 720px 1fr;
+  }
+
+
+main {
+    height: 100vh;
+}
+
+header {
+    width: 159.497px;
+    height: 54px;
+    margin:  40px 432.5px 80px 112px;
+}
+
+aside {
+    height: 100vh;
+    background-image: url(./img/Rectangle\ 1.png);
+    background-color: #7C3AED;
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+
+form {
+    width: 384px;
+    height: 483px;
+    margin-left: 112px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+
+ h2 {
+    color:  #1E293B;
+    font-family: Titillium Web;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 316px;
+    height: 55px;
+}
+
+.infor p {
+    color: var(--Gray-600, #475569);
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 351px;
+    height: 48px;
+}
+
+
+.inputs label {
+    
+    width: 45px;
+    color:  #1E293B;
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 18px;
+   
+}
+
+.inputs a {
+    color:  #7C3AED;
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+input {
+    display: flex;
+   
+width: 384px;
+height: 25pxpx;
+padding: 16px 12px;
+align-items: center;
+gap: 10px;
+color:  #94A3B8;
+font-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+button {
+    display: flex;
+width: 384px;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+background:  #7C3AED;
+color: #FFF;
+font-family: Titillium Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 0;
+margin-top: 32px;
+}
+
+footer p {
+    color:  #475569;
+font-family: Titillium Web;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+ }
+
+#password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a {
+    color:  #7C3AED;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+input:focus,
+input:hover {
+  border: 0.1rem solid #7c3aed;
+  outline: 0;
+}
+
+input:disabled {
+  opacity: 0.35;
+}
+
+
+
+  
